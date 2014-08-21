@@ -43,4 +43,9 @@ public class WaveShot : MonoBehaviour {
     {
         return lifetime <= 0;
     }
+
+    public void InvertVertical()
+    {
+        vspeed = -vspeed;
+    }
 }

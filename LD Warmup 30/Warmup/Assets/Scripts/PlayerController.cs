@@ -36,7 +36,15 @@ public class PlayerController : MonoBehaviour {
 
         if (shotCooldownTimer <= 0 && abilityOne && mainShotStyle != null)
         {
-            Instantiate(mainShotStyle, gameObject.transform.position, Quaternion.identity);
+            //Upper shot.
+            Instantiate(mainShotStyle, transform.position, Quaternion.identity);
+            //Lower shot.
+            GameObject shot = Instantiate(mainShotStyle, transform.position, Quaternion.identity) as GameObject;
+            WaveShot shotScript = shot.GetComponent<WaveShot>();
+            if (shotScript != null)
+            {
+                shotScript.InvertVertical();
+            }
             shotCooldownTimer += shotCooldown;
         }
 	
