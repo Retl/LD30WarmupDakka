@@ -45,6 +45,10 @@ public class PlayerController : MonoBehaviour {
             {
                 shotScript.InvertVertical();
             }
+
+			//Play the sound effect.
+            audio.Play();
+
             shotCooldownTimer += shotCooldown;
         }
 	
