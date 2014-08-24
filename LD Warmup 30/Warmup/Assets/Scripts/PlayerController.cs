@@ -13,6 +13,8 @@ public class PlayerController : MonoBehaviour {
     public float shotCooldown = 0.1f;
 
     public GameObject mainShotStyle;
+    public GameObject secondaryShotStyle;
+    public GameObject thirdShotStyle;
 
 	// Use this for initialization
 	void Start () {
@@ -45,6 +47,9 @@ public class PlayerController : MonoBehaviour {
             {
                 shotScript.InvertVertical();
             }
+
+            //Middle shot.
+            Instantiate(secondaryShotStyle, transform.position, Quaternion.identity);
 
 			//Play the sound effect.
             audio.Play();

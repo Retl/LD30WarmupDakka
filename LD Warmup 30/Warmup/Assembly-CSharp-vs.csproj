@@ -47,7 +47,8 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\PlayerController.cs" />
-     <Compile Include="Assets\Scripts\Projectiles\WaveShot.cs" />
+     <Compile Include="Assets\Scripts\Projectiles\PlayerProjectiles\StraightShot.cs" />
+     <Compile Include="Assets\Scripts\Projectiles\PlayerProjectiles\WaveShot.cs" />
      <Compile Include="Assets\Scripts\WallScript.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -1,9 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PlayerController.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\..\LD30-ConnectedWorlds-Retlthingy\Assets\LD30\Scripts\PlayerScripts\PlayerController_Yellow.cs">
     <Files>
-      <File FileName="Assets\Scripts\PlayerController.cs" Line="50" Column="26" />
-      <File FileName="Assets\Scripts\WallScript.cs" Line="1" Column="1" />
+      <File FileName="..\..\..\LD30-ConnectedWorlds-Retlthingy\Assets\LD30\Scripts\PlayerScripts\PlayerController_Yellow.cs" Line="20" Column="24" />
+      <File FileName="..\..\..\LD30-ConnectedWorlds-Retlthingy\Assets\LD30\Scripts\PlayerScripts\PlayerController_Blue.cs" Line="6" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
